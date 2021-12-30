@@ -1,16 +1,18 @@
 html, body { 
     --color-1: #a8e6cf;
     --color-2: #dcedc1; 
-    --color-3: #ffd3b6; 
+    --color-3: #fab2aa; 
     --color-4: #ffaaa5; 
-    --color-5: #ff8b94;
+    --color-5: #f7283a;
     margin: 0;
     padding: 0;
 }
 
 body {
     padding-top: 50px;
-    background-image: linear-gradient(135deg, var(--color-1) , var(--color-2));
+    background-image: url("images/dice.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'Roboto', sans-serif;
     height: 100vh;
     color: black;
